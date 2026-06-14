@@ -45,7 +45,7 @@ export default function DatasetWidget() {
             />
             <Tooltip
               contentStyle={{ fontSize: 12, border: "0.5px solid var(--rule)", background: "var(--paper)", borderRadius: 6 }}
-              formatter={(v: number) => v.toFixed(4)}
+              formatter={(v: unknown) => (typeof v === "number" ? v.toFixed(4) : String(v))}
             />
             <Scatter name="noisy data" data={noisyDots} fill="#888" opacity={0.4} r={2} />
           </ScatterChart>

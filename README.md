@@ -3,7 +3,7 @@
 > A ground-up mechanistic study of how weights and biases evolve during training.  
 > Built from scratch in NumPy. No PyTorch. No TensorFlow. Every gradient computed by hand.
 
-**Live site:** [bhu1.vercel.app](https://bhu1.vercel.app)  
+**Live site:** [mechanistic-intrepretability-study.vercel.app](https://mechanistic-interpretability-study.vercel.app/)  
 **Author:** [Bhuvan Kambley](https://bhu1.vercel.app)
 
 ---

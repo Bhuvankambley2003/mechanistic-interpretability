@@ -59,15 +59,26 @@ export default function Home() {
           }}
         >
           <span>MECHANISTIC INTERPRETABILITY · 2026</span>
-          <a
-            href="https://bhu1.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="author-link"
-          >
-            <span className="author-name">Built by Bhuvan Kambley</span>
-            <span className="author-arrow">↗</span>
-          </a>
+          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
+            <a
+              href="https://github.com/Bhuvankambley2003/mechanistic-interpretability"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="author-link"
+            >
+              <span className="author-name">GitHub</span>
+              <span className="author-arrow">↗</span>
+            </a>
+            <a
+              href="https://bhu1.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="author-link"
+            >
+              <span className="author-name">Built by Bhuvan Kambley</span>
+              <span className="author-arrow">↗</span>
+            </a>
+          </div>
         </p>
 
         <h1

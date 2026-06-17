@@ -46,7 +46,7 @@ export default function Home() {
       >
       {/* ── Header ── */}
       <header style={{ marginBottom: "5rem" }}>
-        <p
+        <div
           style={{
             fontFamily: "var(--font-geist-mono)",
             fontSize: "12px",
@@ -79,7 +79,7 @@ export default function Home() {
               <span className="author-arrow">↗</span>
             </a>
           </div>
-        </p>
+        </div>
 
         <h1
           style={{

@@ -350,12 +350,22 @@ export default function GradientWidget() {
                   activeDot={false}
                   isAnimationActive={false}
                   name="latest"
-                  label={{
-                    value: `step ${history.length}: ${history[history.length-1]?.toFixed(4)}`,
-                    position: "right",
-                    fill: "#1D9E75",
-                    fontSize: 10,
-                    fontFamily: "monospace",
+                  label={(props: any) => {
+                    const { x, y } = props;
+                    return (
+                      <text
+                        x={x}
+                        y={y}
+                        dx={10}
+                        dy={3}
+                        fill="#1D9E75"
+                        fontSize={10}
+                        fontFamily="monospace"
+                        textAnchor="start"
+                      >
+                        {`step ${history.length}: ${history[history.length-1]?.toFixed(4)}`}
+                      </text>
+                    );
                   }}
                 />
               </LineChart>
